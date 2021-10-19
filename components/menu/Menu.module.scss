@@ -1,0 +1,17 @@
+.menu{
+    background-color: rgb(8, 143, 253);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  auto auto;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    align-content:space-around;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   a{
+       margin: 0 10px;
+   }
+}
