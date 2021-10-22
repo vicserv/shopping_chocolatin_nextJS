@@ -6,6 +6,7 @@ export default function Menu() {
     return (
         <div className={scss.menu}>
             <Link href="/">El Chocolatin</Link>
+            <Link href="/tienda">Tienda</Link>
             <Link href="/carrito">Mi Carrito</Link>
             <Link href="/">Mi Pedido</Link>
         </div>

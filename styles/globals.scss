@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -13,4 +14,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+body {
+  background-image: url('../public/candy-colors.jpg');
+   background-size: cover;
+   background-position: center;
+  
+   width: 100%
 }
