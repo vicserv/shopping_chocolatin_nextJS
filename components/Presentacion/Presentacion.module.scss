@@ -1,0 +1,19 @@
+.presentacion{
+   margin: 40px;
+   text-align: center;
+   &__titulo{
+       text-align: center;
+       font-size:1.5rem;
+       font-weight:bold;
+
+    }
+    &__visitanos{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    img {
+        max-width: 50%;
+        border-radius: 5px;
+        margin: 20px;
+    }
+}

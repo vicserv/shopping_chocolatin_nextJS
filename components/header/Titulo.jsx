@@ -22,9 +22,13 @@ const Estrellas = () =>{
 
 export default function Titulo() {
     return (
-        <>
-            <div className={scss.Titulo}>El Chocolatin</div>
-            <Estrellas  className={scss.estrellas}/>
-        </>
+        <div className={scss.grid}>
+            <div className={scss.space}>
+                <div className={scss.Titulo}>EL CHOCOLATIN</div>
+                <Estrellas  className={scss.estrellas}/>
+            </div>
+            
+            <img src="/chocolatin-2.png" className={scss.imagen} />
+            </div>
     )
 }

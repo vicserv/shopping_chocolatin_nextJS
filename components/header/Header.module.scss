@@ -1,12 +1,14 @@
 .encabezado{
-    background-color: rgb(34, 166, 228);
+    background-color: rgb(22, 206, 238);
     color: white;
     padding: 10px;
     text-align: center;
 }
 .Titulo{
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
+    color: rgb(248, 244, 244);
+   
 }
 
 .buscador{
@@ -19,6 +21,10 @@
     text-align: center;
 }
 .estrellas{
+    background-color:rgba(235, 229, 243, 0.637);
+    border-radius:50px;
+    margin: 0 10px;
+    padding: 10px;
     span{
         margin: 0 5px;
     }
@@ -44,4 +50,15 @@
     }
 
     
+}
+
+.imagen{
+    width:60px;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-content: center;
+    align-items: center;
+    padding:0 10px;
 }

@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+html {
+  background-image: url('../public/candy-colors.jpg');
+
+   background-position: center;
+  background-size: cover;
+   width: 100%
+}

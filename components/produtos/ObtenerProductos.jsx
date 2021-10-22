@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 
-const URL = 'https://panel.elchocolatin.com/productos'
+const URL = 'http://194.163.138.149:1338/productos'
 
 export default async function ObtenerProductos() {
     return axios.get(URL)
@@ -9,7 +9,7 @@ export default async function ObtenerProductos() {
             .then(datos => datos.map( dato => {
                 return {
                     id: dato.id,
-                    imagen: `https://panel.elchocolatin.com${dato.imagen.formats.small.url || dato.imagen.formats.thumbnail.url}`,
+                    imagen: `http://194.163.138.149:1338${dato.imagen.formats.small.url || dato.imagen.formats.thumbnail.url}`,
                     precio: dato.preciomxn,
                     identificador: dato.identificador,
                     nombre: dato.nombre,
